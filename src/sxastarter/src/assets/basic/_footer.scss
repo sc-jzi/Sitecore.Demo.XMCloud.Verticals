@@ -12,7 +12,7 @@ footer {
     margin: 0 auto;
 
     .site-footer__nav {
-      padding: 40px 0 0 0;
+      padding: 40px 0 0;
       margin: 0 auto;
 
       .site-footer__list {
@@ -69,7 +69,7 @@ footer {
       width: 100%;
     }
 
-    .container-fluid:before {
+    .container-fluid::before {
       display: table;
       content: " ";
     }
@@ -107,11 +107,6 @@ footer {
       height: auto;
     }
 
-    .container-fluid:before {
-      display: table;
-      content: " ";
-    }
-
     .footer-logo-list {
         padding: 25px 0;
         max-width: 1160px;
@@ -140,10 +135,10 @@ footer {
           gap: 0 35px;
 
           li.item {
-            padding: 0 0 !important;
+            padding: 0 !important;
             text-align: center;
             width: 114px;
-            margin: 10px 0 10px 0;
+            margin: 10px 0;
             border-bottom: 0 solid #ccc;
             vertical-align: middle;
 
@@ -162,6 +157,7 @@ footer {
             }
           }
         }
+
         @media (min-width: 992px) {
           ul.items {
               gap: 0;
@@ -217,6 +213,7 @@ footer {
         padding: 25px 0;
       }
     }
+    
     @media (min-width: 768px) {
         .footer-logo-list {
             padding: 25px;

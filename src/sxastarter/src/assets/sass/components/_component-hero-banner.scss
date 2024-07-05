@@ -116,13 +116,12 @@
 }
 
 .hgv-hero {
-    background-image: url(https://www.hiltongrandvacations.com/-/media/images/main/home/gettyimages-707435053-2880x1564.jpg?h=1564&amp;w=2880&amp;hash=B5E3BBD3B8BA2499407E2DA8DF5D1BF8);
-
+    background-image: url("https://www.hiltongrandvacations.com/-/media/images/main/home/gettyimages-707435053-2880x1564.jpg?h=1564&amp;w=2880&amp;hash=B5E3BBD3B8BA2499407E2DA8DF5D1BF8");
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-shadow: 0 0px 10px grey;
-    box-shadow: 0 0px 10px grey;
+    -webkit-box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px grey;
     min-height: 740px;
     max-height: 100%;
     position: relative;
@@ -174,7 +173,7 @@
       top: 0;
     }
 
-    .hero__backdrop:after {
+    .hero__backdrop::after {
       content: "";
       opacity: 0.65;
       position: absolute;
@@ -184,7 +183,7 @@
       height: 100%;
     }
 
-    .hero__backdrop:before {
+    .hero__backdrop::before {
       content: "";
       position: absolute;
       background-color: #000;
@@ -196,7 +195,7 @@
     }
 
     @media (min-width: 992px) {
-      .hero__backdrop:after {
+      .hero__backdrop::after {
           content: "";
           background-color: initial;
           opacity: initial;
@@ -205,13 +204,13 @@
     }
 
     @media (min-width: 992px) {
-      .hero__backdrop:before {
+      .hero__backdrop::before {
           content: "";
-          background-color: initial;
-          opacity: 75%;
-          background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(#fff));
-          background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #fff 100%);
           background: -ms-linear-gradient(right, transparent 0%, #fff 100%);
+          background-color: initial;
+          opacity: 0.75;
+          background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0%)), to(#fff));
+          background-image: linear-gradient(to left, rgba(255, 255, 255, 0%), #fff 100%);
           width: 60%;
       }
     }
@@ -237,9 +236,6 @@
  
       .hero__title {
         color: #fff;
-      }
-
-      .hero__title {
         font-size: 38px;
         margin: 0 auto;
       }
@@ -248,36 +244,21 @@
         font-size: 20px;
         margin: 0 auto;
         width: 100%;
-      }
-
-      .hero__subtitle {
         color: #fff;
       }
 
       @media (min-width: 992px) {
         .hero__subtitle {
-            color: #383838;
+          margin-top: 10px;
+          color: #383838;
         }
       }
       
       @media (min-width: 992px) {
-          .hero__subtitle {
-              margin-top: 10px;
-          }
-      }
-
-      @media (min-width: 992px) {
         .hero__title {
             color: #383838;
+            
         }
-      }
-     
-      @media (min-width: 992px) {
-          .hero__title {
-              font-size: 52px;
-              margin: inherit;
-              line-height: 1;
-          }
       }
     }
 
@@ -287,9 +268,8 @@
       }
     }
   
-  .hero__content {
-      color: #fff;
-  }
+  
+
   @media (min-width: 992px) {
       .hero__content {
           color: #000D14;

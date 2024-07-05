@@ -9,5 +9,11 @@ module.exports = {
     "scss/dollar-variable-pattern": null,
     "scss/at-extend-no-missing-placeholder": null,
     "scss/no-global-function-names": null,
+    "selector-class-pattern": null,
+    "property-no-vendor-prefix": null,
+    "value-no-vendor-prefix": null,
+    "media-feature-range-notation": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "color-function-notation": null
   },
 };
