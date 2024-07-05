@@ -78,3 +78,24 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
     </div>
   );
 };
+
+export const HGV = (props: HeroBannerProps): JSX.Element => {
+  return (
+    <section className={`hgv-hero ${props.params.styles.trimEnd()}`} style={{ backgroundImage: props.fields.Image.value?.src}}>
+      <div className="hero__wrapper ">
+        <div className="hero__row hero__row--content ">
+          <div className="hero__content">
+            <h1 className="hero__title"><Text field={props.fields.Title} encode={false} /></h1>
+              <div className="hero__details">
+                <p className="hero__subtitle"><RichText field={props.fields.Text} /></p>
+              </div>
+            </div>
+          </div>
+          <div className="hero__row hero__row--promo">
+            
+          </div>
+          <div className="hero__backdrop"></div>
+      </div>
+    </section>
+  );
+}
