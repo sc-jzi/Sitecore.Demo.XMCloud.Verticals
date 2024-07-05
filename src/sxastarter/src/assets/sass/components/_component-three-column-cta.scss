@@ -14,6 +14,16 @@
       margin: 0 auto;
     }
   }
+
+  .three-column-cta .button {
+    color: #000D14;
+    background: transparent;
+    border: 1px solid #00B0B9;
+
+    &hover {
+      background-color: #00B0B9;
+    }
+  }
 }
 
 .three-column-cta {
