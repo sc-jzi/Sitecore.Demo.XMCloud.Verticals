@@ -120,7 +120,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Get a loan
+    Value: Contact Us
   Versions:
   - Version: 1
     Fields:
@@ -138,10 +138,10 @@ Languages:
       Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Get a loan
+      Value: Contact Us
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5f3a9bbc-2e4e-4d1c-a0a6-9bfaf84a3505"
+      Value: "27e4699d-97e3-4d0f-9c64-e1ac7dbcbf07"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

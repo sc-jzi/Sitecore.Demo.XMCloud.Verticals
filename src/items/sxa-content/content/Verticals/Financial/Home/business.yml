@@ -73,7 +73,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Business
+    Value: Resorts and Destinations
   Versions:
   - Version: 1
     Fields:
@@ -91,10 +91,10 @@ Languages:
       Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Business
+      Value: Resorts and Destinations
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fda349d4-b272-4283-a4b4-3d012aa19463"
+      Value: "097433c9-040a-4ac4-9835-bff4a054a362"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

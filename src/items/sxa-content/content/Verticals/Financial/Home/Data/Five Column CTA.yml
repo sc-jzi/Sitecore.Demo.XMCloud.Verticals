@@ -1,82 +1,54 @@
 ﻿---
 ID: "b2f566b8-603f-4c07-9541-e338eb46d0bb"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
-Template: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Five Column CTA
 SharedFields:
+- ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
+  Hint: Image3
+  Value: |
+    <image mediaid="{EC4594FC-3E2E-4055-BC7E-7025CF9E5A78}" alt="" height="60" width="55" hspace="164" vspace="" />
+- ID: "39fe4fb3-3794-4b9a-a584-ff877e93e33b"
+  Hint: Image2
+  Value: |
+    <image mediaid="{9AF4E968-26CE-4BEA-AA68-52EC876ECD58}" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1200
+- ID: "c511247c-fec1-4690-81d6-ce791da18d4a"
+  Hint: Image1
+  Value: |
+    <image mediaid="{C2AF0CA5-BBA5-4023-A85B-D0B36E40A350}" />
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "1d581533-1aa5-4679-9e2a-e7fe765218ba"
-      Hint: Link3
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B6D8EF4D-8137-4081-B939-7058C1FD944A}" />
-    - ID: "2490d428-27e2-4daa-8337-4e34f37fc26b"
-      Hint: Link2
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C63FF335-ABDA-42B1-83FD-18E67881FAAA}" />
-    - ID: "41910271-6970-45e7-8819-3d531826d4a6"
-      Hint: Link5
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" />
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: Tap into a wealth of travel tips, inspired vacation ideas and expert advice to help you get the most out of your precious vacation days.
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: Fuel your wanderlust
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: Explore our newly expanded destinations
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: More Ways To Get Away
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: "Is vacation membership for you?"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3272da80-391d-4d42-ad36-251f8262891d"
-    - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
-      Hint: Text2
-      Value: Line of Credit
-    - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
-      Hint: Link1
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D26AF0F1-5E54-41F0-B026-C96D4D2BEEA3}" />
-    - ID: "b8b8fa51-0c41-442e-8757-07b7a59d6d3f"
-      Hint: Link4
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{AF81673A-E745-40B2-8EA7-34E0589693A7}" />
+      Value: "8de70247-cf32-4317-8533-2db79d3c6952"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: "Our more than 700,000 Members around the world already call our world-class, points-based timeshare program their own – and so could you."
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
-    - ID: "12ece9de-445a-42be-a483-9e8095ca3b8f"
-      Hint: Text5
-      Value: Cartes de crédit
-    - ID: "1d581533-1aa5-4679-9e2a-e7fe765218ba"
-      Hint: Link3
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B6D8EF4D-8137-4081-B939-7058C1FD944A}" />
-    - ID: "2490d428-27e2-4daa-8337-4e34f37fc26b"
-      Hint: Link2
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C63FF335-ABDA-42B1-83FD-18E67881FAAA}" />
-    - ID: "41910271-6970-45e7-8819-3d531826d4a6"
-      Hint: Link5
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "7de8fa0e-1482-4f02-8054-291c4927ec66"
-    - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
-      Hint: Text2
-      Value: Ligne de crédit
-    - ID: "91d94aff-4137-4702-93f7-8db4eacde4d5"
-      Hint: Text3
-      Value: Options de placement
-    - ID: "9ea34c36-7e22-4d12-b632-032361c3b17c"
-      Hint: Text1
-      Value: Prêt personnel
-    - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
-      Hint: Link1
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D26AF0F1-5E54-41F0-B026-C96D4D2BEEA3}" />
-    - ID: "b8b8fa51-0c41-442e-8757-07b7a59d6d3f"
-      Hint: Link4
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{AF81673A-E745-40B2-8EA7-34E0589693A7}" />
-    - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
-      Hint: Text4
-      Value: Petites entreprises
