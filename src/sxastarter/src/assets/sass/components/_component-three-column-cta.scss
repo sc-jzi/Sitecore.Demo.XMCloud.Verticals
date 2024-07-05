@@ -6,6 +6,16 @@
   --promo-cta-text-opacity: 0.65;
 }
 
+.hgv-icons {
+  .content-wrapper {
+    img {
+      width: 60px;
+      height: 80px;
+      margin: 0 auto;
+    }
+  }
+}
+
 .three-column-cta {
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
