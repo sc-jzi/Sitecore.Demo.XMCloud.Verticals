@@ -48,7 +48,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Articles
+    Value: Sign In
   Versions:
   - Version: 1
     Fields:
@@ -66,10 +66,10 @@ Languages:
       Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Articles
+      Value: Sign In
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f91bc22-3fb1-4f15-83ef-9a21f1bdbae5"
+      Value: "41dde9f6-6de3-48b7-aa78-1b25a9f97e43"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

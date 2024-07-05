@@ -25,7 +25,7 @@ Languages:
       Value: "PLAY! Finance"
     - ID: "4770eb87-8856-4251-b831-6c8522c39da1"
       Hint: Copyright
-      Value: Copyright © Sitecore
+      Value: © 2024 Hilton Grand Vacations Inc.
     - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
       Hint: Text4
       Value: |
@@ -41,7 +41,7 @@ Languages:
         <link linktype="external" url="https://www.sitecore.com/legal" target="" text="Terms of Use" title="" class=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c4799270-339a-4407-89b3-2749e6fb33b3"
+      Value: "93ca9e4a-3293-40bc-8ffe-1f6b28e933a2"
     - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
       Hint: Text3
       Value: |
