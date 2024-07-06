@@ -302,7 +302,8 @@ Languages:
               s:ds="local:/Data/Carousel - Hilton" />
             <r
               uid="{B882746C-C313-4283-8F58-B9402BCF9C6A}"
-              s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}" />
+              s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;ButtonStyle=Main&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles=hgv-icons&amp;DynamicPlaceholderId=18" />
           </d>
         </r>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
@@ -313,7 +314,7 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "902bb3e3-2da1-41e7-84a3-d68fbee5af6b"
+      Value: "3e7dea40-3f3e-4f52-aa1a-8f4f8c7beb29"
     - ID: "d44c4717-038c-47d2-b365-695e23e9fea0"
       Hint: Content
       Value: <p>&nbsp;</p>

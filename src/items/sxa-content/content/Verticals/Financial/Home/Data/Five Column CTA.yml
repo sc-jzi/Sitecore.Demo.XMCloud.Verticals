@@ -24,9 +24,17 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link text="Start Planning" linktype="external" url="https://example.com" anchor="" target="" />
     - ID: "2731b4d6-b866-466a-9731-5161788d662b"
       Hint: SubText2
       Value: Tap into a wealth of travel tips, inspired vacation ideas and expert advice to help you get the most out of your precious vacation days.
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link text="Explore Membership" linktype="external" url="https://example.com" anchor="" target="" />
     - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
       Hint: Text2
       Value: Fuel your wanderlust
@@ -39,9 +47,13 @@ Languages:
     - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
       Hint: Text3
       Value: "Is vacation membership for you?"
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link text="Discover our Destinations" linktype="external" url="https://example.com" anchor="" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8de70247-cf32-4317-8533-2db79d3c6952"
+      Value: "bd03bf80-10a8-40ce-9d15-2e321be3087c"
     - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
       Hint: SubText3
       Value: "Our more than 700,000 Members around the world already call our world-class, points-based timeshare program their own – and so could you."
