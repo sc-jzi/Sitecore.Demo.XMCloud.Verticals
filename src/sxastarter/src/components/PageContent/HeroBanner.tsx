@@ -80,8 +80,8 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
 };
 
 export const HGV = (props: HeroBannerProps): JSX.Element => {
-  return (
-    <section className={`hgv-hero ${props.params.styles.trimEnd()}`} style={{ backgroundImage: props.fields.Image.value?.src}}>
+  return (<>
+    <section className={`hgv-hero ${props.params.styles.trimEnd()}`} style={{ backgroundImage: `url(${props.fields.Image.value?.src})` }}>
       <div className="hero__wrapper ">
         <div className="hero__row hero__row--content ">
           <div className="hero__content">
@@ -96,6 +96,6 @@ export const HGV = (props: HeroBannerProps): JSX.Element => {
           </div>
           <div className="hero__backdrop"></div>
       </div>
-    </section>
+    </section></>
   );
 }
