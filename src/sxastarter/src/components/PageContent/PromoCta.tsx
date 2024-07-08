@@ -188,20 +188,18 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
 export const HGV = (props: PromoCtaProps): JSX.Element => {
 
   return (
-    <section className={`lg-img-cta ${props.params.styles.trimEnd()}`} style= {{ backgroundImage: "url('https://www.hiltongrandvacations.com/-/media/images/main/home/gettyimages-482135479-1900x500.jpg?h=1564&amp;w=2880&amp;hash=7409A95066CCD9D1FAAB8B8ADD143F71')" }}>
-    <div className="lg-img-cta__wrapper">
+    <section className={`lg-img-cta ${props.params.styles.trimEnd()}`} style= {{ backgroundImage: `url('${props.fields.Image.value?.src}')` }}>
+      <div className="lg-img-cta__wrapper">
         <article className="lg-img-cta__card">
-            <div className="lg-img-cta__content">
-                <p className="lg-img-cta__eyebrow"></p>
-                <h2 className="lg-img-cta__title"><Text field={props.fields.Title} /></h2>
-                <p className="lg-img-cta__subtitle"><RichText field={props.fields.Text} /></p>
-                <p className="lg-img-cta__description"></p>
-
-                <a href="https://www.hiltongrandvacations.com/en/discover-membership/the-hgv-difference" role="button" className="hgv-btn hgv-btn--border hgv-btn--small lg-img-cta__link">Choose the Extraordinary</a>
-
-            </div>
+          <div className="lg-img-cta__content">
+            <p className="lg-img-cta__eyebrow"></p>
+            <h2 className="lg-img-cta__title"><Text field={props.fields.Title} /></h2>
+            <p className="lg-img-cta__subtitle"><RichText field={props.fields.Text} /></p>
+            <p className="lg-img-cta__description"></p>
+            <a href={props.fields.Link.value.href} role="button" className="hgv-btn hgv-btn--border hgv-btn--small lg-img-cta__link">{props.fields.Link.value.text}</a>
+          </div>
         </article>
-    </div>
-</section>
+      </div>
+    </section>
   );
 }
