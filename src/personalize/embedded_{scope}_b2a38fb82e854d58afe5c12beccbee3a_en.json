@@ -3,9 +3,9 @@
   "href": "https://api-us.boxever.com/v3/flowDefinitions/cd0708ea-1afe-42ed-bb08-0ba8eafb6504",
   "ref": "cd0708ea-1afe-42ed-bb08-0ba8eafb6504",
   "name": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
-  "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-07-05T17:32:17.213Z",
-  "revision": 4,
+  "modifiedByRef": "auth0|63f7751390e84fc81da0df40",
+  "modifiedAt": "2024-07-08T14:43:12.86Z",
+  "revision": 11,
   "archived": false,
   "friendlyId": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,114 +20,21 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-07-05T17:32:17.234Z",
-    "splits": [
-      {
-        "template": "{\"variantId\": \"5e9637fd02a84b21b5f46c1466e26e17\"}",
-        "variantName": "Business Campaign",
-        "audienceName": "Business Campaign",
-        "conditionGroups": [
-          {
-            "conditions": [
-              {
-                "templateId": "utm_value",
-                "params": {
-                  "type": "campaign",
-                  "compares to": "is equal to",
-                  "UTM value": "business"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "template": "{\"variantId\": \"2538ab68658240c2917f1d79a53698c7\"}",
-        "variantName": "Retirement Campaign",
-        "audienceName": "Retirement Campaign",
-        "conditionGroups": [
-          {
-            "conditions": [
-              {
-                "templateId": "utm_value",
-                "params": {
-                  "type": "campaign",
-                  "compares to": "is equal to",
-                  "UTM value": "retirement"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "template": "{\"variantId\": \"6ab65cfcbdf14e09b518f1a74fc77ac4\"}",
-        "variantName": "Personal Page View",
-        "audienceName": "Personal Page View",
-        "conditionGroups": [
-          {
-            "conditions": [
-              {
-                "templateId": "page_view",
-                "params": {
-                  "has": "has",
-                  "page name(s)": "personal"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "template": "{\"variantId\": \"c1a0eeadfde348ba8d485b52326c84ea\"}",
-        "variantName": "Business Page View",
-        "audienceName": "Business Page View",
-        "conditionGroups": [
-          {
-            "conditions": [
-              {
-                "templateId": "page_view",
-                "params": {
-                  "has": "has",
-                  "page name(s)": "business"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "template": "{\"variantId\": \"692b13379ec547dbafba079ccc4927dd\"}",
-        "variantName": "Retirement Page View",
-        "audienceName": "Retirement Page View",
-        "conditionGroups": [
-          {
-            "conditions": [
-              {
-                "templateId": "page_view",
-                "params": {
-                  "has": "has",
-                  "page name(s)": "retirement-planning"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "modifiedAt": "2024-07-08T14:43:12.86Z",
+    "splits": []
   },
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "f3aa0048-9c9b-4071-81e1-8c61b0c80db4",
-      "name": "Business Page View",
+      "ref": "3fd2c0ff-e463-4bc2-b59d-79259f4cd719",
+      "name": "Retirement Page View",
       "tasks": [
         {
           "implementation": "templateRenderTask",
           "input": {
             "inputType": "templateRenderTaskInput",
             "type": "application/json",
-            "template": "{\"variantId\": \"c1a0eeadfde348ba8d485b52326c84ea\"}"
+            "template": "{\"variantId\": \"692b13379ec547dbafba079ccc4927dd\"}"
           }
         },
         {
@@ -140,7 +47,7 @@
                 "name": "Combined condition groups",
                 "description": "Combined templates within condition group for targeted experience",
                 "ruleData": {
-                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"business\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
+                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"retirement-planning\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
                 }
               }
             ]
@@ -149,7 +56,7 @@
       ]
     }
   ],
-  "status": "PRODUCTION",
+  "status": "PAUSED",
   "schedule": {
     "type": "simpleSchedule",
     "startDate": "2024-06-10T16:38:13.665Z"

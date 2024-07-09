@@ -298,12 +298,94 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{654C4B49-B268-4EA3-A123-7A2162FA9ECC}">
+              <p:d />
+            </r>
+            <r
+              uid="{36E87C5B-94DF-4C70-827E-E88DCCD07907}">
+              <p:d />
+            </r>
+            <r
               uid="{124106DE-FB02-4B43-A521-A309FC75A5BC}"
-              s:ds="local:/Data/Carousel - Hilton" />
+              s:ds="local:/Data/Carousel - Hilton">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{A1E9842B-CF18-476B-A8CF-345F4DD78C98}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{5DE1AFD5-4C56-43D4-9EAD-7BFE7742CBE2}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{70A0B395-BD5D-46CC-82E7-E70B7268F906}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{66F023A5-9868-4842-8FBE-9B4E44E32ED2}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{204DC38F-9A6B-41B7-BF75-5F1D95402A81}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{1E5B6660-B309-4E9E-B5BC-927398403D14}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{40D8CA67-5D36-48A2-98BB-8B3965053529}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{8201ECBA-268A-45FD-9103-BDE9B101F7E1}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{B9976B4F-E5CC-405B-A638-D0673B253DF5}">
+                    <p:d />
+                  </rule>
+                  <rule
+                    uid="{BA7852EA-C809-4729-8A43-7D43E6F3CEF7}">
+                    <p:d />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{B882746C-C313-4283-8F58-B9402BCF9C6A}"
               s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;ButtonStyle=Main&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles=hgv-icons&amp;DynamicPlaceholderId=18" />
+            <r
+              uid="{D54D53B4-1AA4-4998-9BDF-EB934C32CFB6}">
+              <p:d />
+            </r>
+            <r
+              uid="{633506E7-54D0-4410-9051-72FB4C9FECB4}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/HGV Difference"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA63F145F-1C28-4DA2-8A82-B1F263BCC1E2%7D&amp;Styles=%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D%7C%7BAC2F465E-37DA-4902-A6E1-54D0D9A34A0D%7D%7C%7B414E9E7F-1D7C-4BA2-8A8E-C472697DB054%7D%7C%7B4FF833E4-92AD-41E4-97A4-D329284BC2B1%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=25" />
+            <r
+              uid="{1A516B9B-CC7B-49C9-A8EB-5BE281A98612}">
+              <p:d />
+            </r>
+            <r
+              uid="{0ED2D2C2-E9EF-4E40-B040-6289CB174E03}">
+              <p:d />
+            </r>
+            <r
+              uid="{854DE8CE-208F-494D-B7C8-C1162D00144F}">
+              <p:d />
+            </r>
+            <r
+              uid="{251B0936-4659-4127-9952-52CA5140D803}">
+              <p:d />
+            </r>
+            <r
+              uid="{7EBE6F29-1C6F-4138-8BF9-287ACF0CD530}">
+              <p:d />
+            </r>
           </d>
         </r>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
@@ -314,13 +396,13 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3e7dea40-3f3e-4f52-aa1a-8f4f8c7beb29"
+      Value: "1e1b9ff9-e397-4ead-ba60-488da73f846b"
     - ID: "d44c4717-038c-47d2-b365-695e23e9fea0"
       Hint: Content
       Value: <p>&nbsp;</p>
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
-      Value: Financial
+      Value: Explore Vacation Ownership | Hilton Grand Vacations
 - Language: "fr-CA"
   Versions:
   - Version: 1
