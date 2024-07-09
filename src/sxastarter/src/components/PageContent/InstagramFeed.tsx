@@ -26,7 +26,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
 
   return (
     <>
-        <div className="hgv-row ">
+        <div className="hgv-row " style={{width: "100%"}}>
             <div className="full-width-cta ">
                 <div className="full-width-cta__wrapper">
                 </div>
@@ -42,22 +42,6 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                         <article className="flockler-grid-item flockler-grid-item--instagram flockler-grid-item--no-profile-details is-visible" style={{opacity: 1}}>
                             <div className="flockler-grid-item__wrapper flockler-grid-item__wrapper--no-profile">
                                 <div className="flockler-grid-item__content">
-                                    <figure className="flockler-grid-item__context post__context__instagram">
-                                        <a href="https://www.instagram.com/reel/C87T-sfR1C4/" target="_blank" rel="noopener noreferrer nofollow" title="See original post on Instagram (Opens in a new window)" className="flockler-grid-item__context__source">
-                                            <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__context__icon">
-                                                <defs>
-                                                    <radialGradient id="instagramLogoGradient" r="150%" cx="30%" cy="107%">
-                                                        <stop offset="0" stop-color="#fdf497"></stop>
-                                                        <stop offset=".05" stop-color="#fdf497"></stop>
-                                                        <stop offset=".45" stop-color="#fd5949"></stop>
-                                                        <stop offset=".6" stop-color="#d6249f"></stop>
-                                                        <stop offset=".9" stop-color="#285aeb"></stop>
-                                                    </radialGradient>
-                                                </defs>
-                                                <path fill-rule="evenodd" fill="url(#instagramLogoGradient)" d="m39.9 6.1c2.5 0.2 4.3 0.6 5.8 1.2 1.6 0.6 2.9 1.4 4.3 2.7 1.3 1.4 2.1 2.7 2.7 4.3 0.6 1.5 1 3.3 1.2 5.8 0.1 2.6 0.1 3.4 0.1 9.9 0 6.5 0 7.3-0.1 9.9-0.2 2.5-0.6 4.3-1.2 5.8-0.6 1.6-1.4 2.9-2.7 4.3-1.4 1.3-2.7 2.1-4.3 2.7-1.5 0.6-3.3 1-5.8 1.2-2.6 0.1-3.4 0.1-9.9 0.1-6.5 0-7.3 0-9.9-0.1-2.5-0.2-4.3-0.6-5.8-1.2-1.6-0.6-2.9-1.4-4.3-2.7-1.3-1.4-2.1-2.7-2.7-4.3-0.6-1.5-1-3.3-1.2-5.8-0.1-2.6-0.1-3.4-0.1-9.9 0-6.5 0-7.3 0.1-9.9 0.2-2.5 0.6-4.3 1.2-5.8 0.6-1.6 1.4-2.9 2.7-4.3 1.4-1.3 2.7-2.1 4.3-2.7 1.5-0.6 3.3-1 5.8-1.2 2.6-0.1 3.4-0.1 9.9-0.1 6.5 0 7.3 0 9.9 0.1zm-19.6 4.4c-2.3 0.1-3.6 0.5-4.5 0.8-1.1 0.4-1.9 0.9-2.7 1.8-0.9 0.8-1.4 1.6-1.8 2.7-0.3 0.9-0.7 2.2-0.8 4.5-0.2 2.5-0.2 3.3-0.2 9.7 0 6.4 0 7.2 0.2 9.7 0.1 2.3 0.5 3.6 0.8 4.5 0.4 1.1 0.9 1.9 1.8 2.7 0.8 0.9 1.6 1.4 2.7 1.8 0.9 0.3 2.2 0.7 4.5 0.8 2.5 0.2 3.3 0.2 9.7 0.2 6.4 0 7.2 0 9.7-0.2 2.3-0.1 3.6-0.5 4.5-0.8 1.1-0.4 1.9-0.9 2.7-1.8 0.9-0.8 1.4-1.6 1.8-2.7 0.3-0.9 0.7-2.2 0.8-4.5 0.2-2.5 0.2-3.3 0.2-9.7 0-6.4 0-7.2-0.2-9.7-0.1-2.3-0.5-3.6-0.8-4.5-0.4-1.1-0.9-1.9-1.8-2.7-0.8-0.9-1.6-1.4-2.7-1.8-0.9-0.3-2.2-0.7-4.5-0.8-2.5-0.2-3.3-0.2-9.7-0.2-6.4 0-7.2 0-9.7 0.2zm22 19.5c0 6.8-5.5 12.3-12.3 12.3-6.8 0-12.3-5.5-12.3-12.3 0-6.8 5.5-12.3 12.3-12.3 6.8 0 12.3 5.5 12.3 12.3zm-4.3 0c0-4.4-3.6-8-8-8-4.4 0-8 3.6-8 8 0 4.4 3.6 8 8 8 4.4 0 8-3.6 8-8zm7.7-12.8c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"></path>
-                                            </svg>
-                                        </a>
-                                    </figure>
                                     <figure className="flockler-grid-item__media flockler-grid-item__media--video flockler-grid-item__media--video--iframe">
                                         <img src="https://media-api.flockler.com/instagram/video_cover/3403401814669217976" alt="No photo description available." className="flockler-grid-item__media__img" />
                                         <button type="button" aria-label="Play video from Hilton Grand Vacations" className="flockler-grid-item__media__play-button">
@@ -66,20 +50,6 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                                             </svg>
                                         </button>
                                     </figure>
-                                    <div className="flockler-grid-item__text flockler-grid-item__text--long" style={{ minHeight: "275px" }}>
-                                        <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__text__hover-hint">
-                                            <path fill="currentColor" d="m27.739 2.889-2.693-2.693-21.553 21.554 2.693 2.693 18.86-18.861 18.772 18.772 2.693-2.693-10.761-10.761z" fill-rule="evenodd" transform="translate(5 18)"></path>
-                                        </svg>
-                                        <div className="flockler-grid-item__text__wrapper" data-clip-status="show-full">
-                                            <div className="flockler-grid-item__text__content">
-                                                <p>Back in May, HGV Members joined forces with Team Members to support the theuso. Their mission: assemble 3,500 care packages for our nation’s servicemembers. This event and these packages symbolize our deep appreciation for the servicemen and women serving overseas, especially those in deployment or remote training. We are immensely proud to back the USO’s mission, reinforcing our commitment and dedication to those who safeguard our freedom. <a href="https://www.instagram.com/explore/tags/HGVServes" rel="nofollow noopener noreferrer" target="_blank" aria-label="Hashtag HGVServes" data-fl-event="clickLinkInContent" tabIndex={-1} data-force-tabindex="true">#HGVServes</a></p>
-                                            </div>
-                                        </div>
-                                        <button type="button" data-fl-event="clickShowMore" className="flockler-grid-item__text__show-button" style={{ display: "none"}}>
-                                            <span>Show more…</span>
-                                            <span className="flockler-visuallyhidden">(enlarge visible text above – no impact for screenreader users)</span>
-                                        </button>
-                                    </div>
                                 </div>
                                 <div className="flockler-grid-item__footer">
                                     <div className="flockler-grid-item__footer__details">
@@ -98,134 +68,54 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                         <article className="flockler-grid-item flockler-grid-item--instagram flockler-grid-item--no-profile-details is-visible" style={{ opacity: 1 }}>
                             <div className="flockler-grid-item__wrapper flockler-grid-item__wrapper--no-profile">
                                 <div className="flockler-grid-item__content">
-                                    <figure className="flockler-grid-item__context post__context__instagram">
-                                        <a href="https://www.instagram.com/p/C84u-gpxpxj/" target="_blank" rel="noopener noreferrer nofollow" title="See original post on Instagram (Opens in a new window)" aria-label="See original post on Instagram (Opens in a new window)" className="flockler-grid-item__context__source">
-                                            <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__context__icon">
-                                                <defs>
-                                                    <radialGradient id="instagramLogoGradient" r="150%" cx="30%" cy="107%">
-                                                        <stop offset="0" stop-color="#fdf497"></stop>
-                                                        <stop offset=".05" stop-color="#fdf497"></stop>
-                                                        <stop offset=".45" stop-color="#fd5949"></stop>
-                                                        <stop offset=".6" stop-color="#d6249f"></stop>
-                                                        <stop offset=".9" stop-color="#285aeb"></stop>
-                                                    </radialGradient>
-                                                </defs>
-                                                <path fill-rule="evenodd" fill="url(#instagramLogoGradient)" d="m39.9 6.1c2.5 0.2 4.3 0.6 5.8 1.2 1.6 0.6 2.9 1.4 4.3 2.7 1.3 1.4 2.1 2.7 2.7 4.3 0.6 1.5 1 3.3 1.2 5.8 0.1 2.6 0.1 3.4 0.1 9.9 0 6.5 0 7.3-0.1 9.9-0.2 2.5-0.6 4.3-1.2 5.8-0.6 1.6-1.4 2.9-2.7 4.3-1.4 1.3-2.7 2.1-4.3 2.7-1.5 0.6-3.3 1-5.8 1.2-2.6 0.1-3.4 0.1-9.9 0.1-6.5 0-7.3 0-9.9-0.1-2.5-0.2-4.3-0.6-5.8-1.2-1.6-0.6-2.9-1.4-4.3-2.7-1.3-1.4-2.1-2.7-2.7-4.3-0.6-1.5-1-3.3-1.2-5.8-0.1-2.6-0.1-3.4-0.1-9.9 0-6.5 0-7.3 0.1-9.9 0.2-2.5 0.6-4.3 1.2-5.8 0.6-1.6 1.4-2.9 2.7-4.3 1.4-1.3 2.7-2.1 4.3-2.7 1.5-0.6 3.3-1 5.8-1.2 2.6-0.1 3.4-0.1 9.9-0.1 6.5 0 7.3 0 9.9 0.1zm-19.6 4.4c-2.3 0.1-3.6 0.5-4.5 0.8-1.1 0.4-1.9 0.9-2.7 1.8-0.9 0.8-1.4 1.6-1.8 2.7-0.3 0.9-0.7 2.2-0.8 4.5-0.2 2.5-0.2 3.3-0.2 9.7 0 6.4 0 7.2 0.2 9.7 0.1 2.3 0.5 3.6 0.8 4.5 0.4 1.1 0.9 1.9 1.8 2.7 0.8 0.9 1.6 1.4 2.7 1.8 0.9 0.3 2.2 0.7 4.5 0.8 2.5 0.2 3.3 0.2 9.7 0.2 6.4 0 7.2 0 9.7-0.2 2.3-0.1 3.6-0.5 4.5-0.8 1.1-0.4 1.9-0.9 2.7-1.8 0.9-0.8 1.4-1.6 1.8-2.7 0.3-0.9 0.7-2.2 0.8-4.5 0.2-2.5 0.2-3.3 0.2-9.7 0-6.4 0-7.2-0.2-9.7-0.1-2.3-0.5-3.6-0.8-4.5-0.4-1.1-0.9-1.9-1.8-2.7-0.8-0.9-1.6-1.4-2.7-1.8-0.9-0.3-2.2-0.7-4.5-0.8-2.5-0.2-3.3-0.2-9.7-0.2-6.4 0-7.2 0-9.7 0.2zm22 19.5c0 6.8-5.5 12.3-12.3 12.3-6.8 0-12.3-5.5-12.3-12.3 0-6.8 5.5-12.3 12.3-12.3 6.8 0 12.3 5.5 12.3 12.3zm-4.3 0c0-4.4-3.6-8-8-8-4.4 0-8 3.6-8 8 0 4.4 3.6 8 8 8 4.4 0 8-3.6 8-8zm7.7-12.8c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"></path>
-                                            </svg>
-                                        </a>
-                                    </figure>
                                     <figure className="flockler-grid-item__media flockler-grid-item__media--image flockler-grid-item__media--loaded">
                                         <img src="https://media-api.flockler.com/instagram/image/3402676124286098531" alt="No photo description available." className="flockler-grid-item__media__img" />
                                         <a href="https://www.instagram.com/p/C84u-gpxpxj/" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabIndex={-1} className="flockler-grid-item__media__source-link"></a>
                                     </figure>
-                                    <div className="flockler-grid-item__text" style={{ minHeight: "275px" }}>
-                                        <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__text__hover-hint">
-                                            <path fill="currentColor" d="m27.739 2.889-2.693-2.693-21.553 21.554 2.693 2.693 18.86-18.861 18.772 18.772 2.693-2.693-10.761-10.761z" fill-rule="evenodd" transform="translate(5 18)"></path>
-                                        </svg>
-                                    <div className="flockler-grid-item__text__wrapper">
-                                        <div className="flockler-grid-item__text__content">
-                                            <p>With a view this good, we’d like to stay forever, please. 😌</p>
-                                            <p>
-                                                📍 Hilton Grand Vacations Club Zihuatanejo
-                                                <br />[📸: ajbates35]
-                                            </p>
+                                </div>
+                                <div className="flockler-grid-item__footer">
+                                    <div className="flockler-grid-item__footer__details">
+                                        <div aria-label="11 comments" className="flockler-grid-item__footer__details__stats">
+                                            <span title="11 comments" aria-hidden="true" className="flockler-grid-item__footer__details__stat flockler-grid-item__footer__details__stat--comments">
+                                                <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__footer__details__stat__icon">
+                                                    <path fill="currentColor" d="m31.652.5h-15.304-.0000004c-8.47646002.00000037-15.34800002 6.87154-15.34800002 15.348.00000037 8.47646 6.87154 15.348 15.34800002 15.348h1.652v7.304-.00004c-.0001908.552284.44737 1.000154.999654 1.000346.274722.0000949.537384-.1128352.726318-.312276l7.57-8h4.356-.0000007c8.47646.0000003 15.348-6.87154 15.348-15.348.0000004-8.47646003-6.87154-15.34800003-15.348-15.34800003z" fill-rule="evenodd" transform="translate(6 10)"></path>
+                                                </svg>
+                                                11
+                                            </span>
                                         </div>
                                     </div>
-                                    <button type="button" className="flockler-grid-item__text__show-button" style={{ display: "none" }}>
-                                        <span>Show more…</span>
-                                        <span className="flockler-visuallyhidden">(enlarge visible text above – no impact for screenreader users)</span>
-                                    </button>
                                 </div>
                             </div>
-                            <div className="flockler-grid-item__footer">
-                                <div className="flockler-grid-item__footer__details">
-                                    <div aria-label="11 comments" className="flockler-grid-item__footer__details__stats">
-                                        <span title="11 comments" aria-hidden="true" className="flockler-grid-item__footer__details__stat flockler-grid-item__footer__details__stat--comments">
-                                            <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__footer__details__stat__icon">
-                                                <path fill="currentColor" d="m31.652.5h-15.304-.0000004c-8.47646002.00000037-15.34800002 6.87154-15.34800002 15.348.00000037 8.47646 6.87154 15.348 15.34800002 15.348h1.652v7.304-.00004c-.0001908.552284.44737 1.000154.999654 1.000346.274722.0000949.537384-.1128352.726318-.312276l7.57-8h4.356-.0000007c8.47646.0000003 15.348-6.87154 15.348-15.348.0000004-8.47646003-6.87154-15.34800003-15.348-15.34800003z" fill-rule="evenodd" transform="translate(6 10)"></path>
+                        </article>
+                        <article className="flockler-grid-item flockler-grid-item--instagram flockler-grid-item--no-profile-details is-visible" style={{ opacity: 1 }}>
+                            <div className="flockler-grid-item__wrapper flockler-grid-item__wrapper--no-profile">
+                                <div className="flockler-grid-item__content">
+                                    <figure className="flockler-grid-item__media flockler-grid-item__media--video flockler-grid-item__media--video--iframe">
+                                        <img src="https://media-api.flockler.com/instagram/video_cover/3399852517306474905" alt="No photo description available." className="flockler-grid-item__media__img" />
+                                        <button type="button" aria-label="Play video from Hilton Grand Vacations" className="flockler-grid-item__media__play-button">
+                                            <svg aria-hidden="true" viewBox="0 0 60 60">
+                                                <path fill="currentColor" d="m24 0c-13.26 0-24 10.74-24 24s10.74 24 24 24 24-10.74 24-24-10.74-24-24-24zm-4.8 34.8v-21.6l14.4 10.8z" transform="translate(6 6)"></path>
                                             </svg>
-                                            11
-                                        </span>
-                                    </div>
+                                        </button>
+                                    </figure>
                                 </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article className="flockler-grid-item flockler-grid-item--instagram flockler-grid-item--no-profile-details is-visible" style={{ opacity: 1 }}>
-                        <div className="flockler-grid-item__wrapper flockler-grid-item__wrapper--no-profile">
-                            <div className="flockler-grid-item__content">
-                                <figure className="flockler-grid-item__context post__context__instagram">
-                                    <a href="https://www.instagram.com/reel/C8us9nuxSGZ/" target="_blank" rel="noopener noreferrer nofollow" title="See original post on Instagram (Opens in a new window)" aria-label="See original post on Instagram (Opens in a new window)" className="flockler-grid-item__context__source">
-                                        <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__context__icon">
-                                            <defs>
-                                                <radialGradient id="instagramLogoGradient" r="150%" cx="30%" cy="107%">
-                                                    <stop offset="0" stop-color="#fdf497"></stop>
-                                                    <stop offset=".05" stop-color="#fdf497"></stop>
-                                                    <stop offset=".45" stop-color="#fd5949"></stop>
-                                                    <stop offset=".6" stop-color="#d6249f"></stop>
-                                                    <stop offset=".9" stop-color="#285aeb"></stop>
-                                                </radialGradient>
-                                            </defs>
-                                            <path fill-rule="evenodd" fill="url(#instagramLogoGradient)" d="m39.9 6.1c2.5 0.2 4.3 0.6 5.8 1.2 1.6 0.6 2.9 1.4 4.3 2.7 1.3 1.4 2.1 2.7 2.7 4.3 0.6 1.5 1 3.3 1.2 5.8 0.1 2.6 0.1 3.4 0.1 9.9 0 6.5 0 7.3-0.1 9.9-0.2 2.5-0.6 4.3-1.2 5.8-0.6 1.6-1.4 2.9-2.7 4.3-1.4 1.3-2.7 2.1-4.3 2.7-1.5 0.6-3.3 1-5.8 1.2-2.6 0.1-3.4 0.1-9.9 0.1-6.5 0-7.3 0-9.9-0.1-2.5-0.2-4.3-0.6-5.8-1.2-1.6-0.6-2.9-1.4-4.3-2.7-1.3-1.4-2.1-2.7-2.7-4.3-0.6-1.5-1-3.3-1.2-5.8-0.1-2.6-0.1-3.4-0.1-9.9 0-6.5 0-7.3 0.1-9.9 0.2-2.5 0.6-4.3 1.2-5.8 0.6-1.6 1.4-2.9 2.7-4.3 1.4-1.3 2.7-2.1 4.3-2.7 1.5-0.6 3.3-1 5.8-1.2 2.6-0.1 3.4-0.1 9.9-0.1 6.5 0 7.3 0 9.9 0.1zm-19.6 4.4c-2.3 0.1-3.6 0.5-4.5 0.8-1.1 0.4-1.9 0.9-2.7 1.8-0.9 0.8-1.4 1.6-1.8 2.7-0.3 0.9-0.7 2.2-0.8 4.5-0.2 2.5-0.2 3.3-0.2 9.7 0 6.4 0 7.2 0.2 9.7 0.1 2.3 0.5 3.6 0.8 4.5 0.4 1.1 0.9 1.9 1.8 2.7 0.8 0.9 1.6 1.4 2.7 1.8 0.9 0.3 2.2 0.7 4.5 0.8 2.5 0.2 3.3 0.2 9.7 0.2 6.4 0 7.2 0 9.7-0.2 2.3-0.1 3.6-0.5 4.5-0.8 1.1-0.4 1.9-0.9 2.7-1.8 0.9-0.8 1.4-1.6 1.8-2.7 0.3-0.9 0.7-2.2 0.8-4.5 0.2-2.5 0.2-3.3 0.2-9.7 0-6.4 0-7.2-0.2-9.7-0.1-2.3-0.5-3.6-0.8-4.5-0.4-1.1-0.9-1.9-1.8-2.7-0.8-0.9-1.6-1.4-2.7-1.8-0.9-0.3-2.2-0.7-4.5-0.8-2.5-0.2-3.3-0.2-9.7-0.2-6.4 0-7.2 0-9.7 0.2zm22 19.5c0 6.8-5.5 12.3-12.3 12.3-6.8 0-12.3-5.5-12.3-12.3 0-6.8 5.5-12.3 12.3-12.3 6.8 0 12.3 5.5 12.3 12.3zm-4.3 0c0-4.4-3.6-8-8-8-4.4 0-8 3.6-8 8 0 4.4 3.6 8 8 8 4.4 0 8-3.6 8-8zm7.7-12.8c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"></path>
-                                        </svg>
-                                    </a>
-                                </figure>
-                                <figure className="flockler-grid-item__media flockler-grid-item__media--video flockler-grid-item__media--video--iframe">
-                                    <img src="https://media-api.flockler.com/instagram/video_cover/3399852517306474905" alt="No photo description available." className="flockler-grid-item__media__img" />
-                                    <button type="button" aria-label="Play video from Hilton Grand Vacations" className="flockler-grid-item__media__play-button">
-                                        <svg aria-hidden="true" viewBox="0 0 60 60">
-                                            <path fill="currentColor" d="m24 0c-13.26 0-24 10.74-24 24s10.74 24 24 24 24-10.74 24-24-10.74-24-24-24zm-4.8 34.8v-21.6l14.4 10.8z" transform="translate(6 6)"></path>
-                                        </svg>
-                                    </button>
-                                </figure>
-                                <div className="flockler-grid-item__text" style={{ minHeight: "275px" }}>
-                                    <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__text__hover-hint">
-                                        <path fill="currentColor" d="m27.739 2.889-2.693-2.693-21.553 21.554 2.693 2.693 18.86-18.861 18.772 18.772 2.693-2.693-10.761-10.761z" fill-rule="evenodd" transform="translate(5 18)"></path>
-                                    </svg>
-                                    <div className="flockler-grid-item__text__wrapper">
-                                        <div className="flockler-grid-item__text__content">
-                                            <p>Brb enjoying some TLC with HGV 😌</p>
+                                <div className="flockler-grid-item__footer">
+                                    <div className="flockler-grid-item__footer__details">
+                                        <div aria-label="7 comments" role="img" className="flockler-grid-item__footer__details__stats">
+                                            <span title="7 comments" aria-hidden="true" className="flockler-grid-item__footer__details__stat flockler-grid-item__footer__details__stat--comments">
+                                                <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__footer__details__stat__icon">
+                                                    <path fill="currentColor" d="m31.652.5h-15.304-.0000004c-8.47646002.00000037-15.34800002 6.87154-15.34800002 15.348.00000037 8.47646 6.87154 15.348 15.34800002 15.348h1.652v7.304-.00004c-.0001908.552284.44737 1.000154.999654 1.000346.274722.0000949.537384-.1128352.726318-.312276l7.57-8h4.356-.0000007c8.47646.0000003 15.348-6.87154 15.348-15.348.0000004-8.47646003-6.87154-15.34800003-15.348-15.34800003z" fill-rule="evenodd" transform="translate(6 10)"></path>
+                                                </svg>
+                                                7
+                                            </span>
                                         </div>
                                     </div>
-                                    <button type="button" className="flockler-grid-item__text__show-button" style={{ display: "none" }}>
-                                        <span>Show more…</span>
-                                        <span className="flockler-visuallyhidden">(enlarge visible text above – no impact for screenreader users)</span>
-                                    </button>
                                 </div>
                             </div>
-                            <div className="flockler-grid-item__footer">
-                                <div className="flockler-grid-item__footer__details">
-                                    <div aria-label="7 comments" role="img" className="flockler-grid-item__footer__details__stats">
-                                        <span title="7 comments" aria-hidden="true" className="flockler-grid-item__footer__details__stat flockler-grid-item__footer__details__stat--comments">
-                                            <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__footer__details__stat__icon">
-                                                <path fill="currentColor" d="m31.652.5h-15.304-.0000004c-8.47646002.00000037-15.34800002 6.87154-15.34800002 15.348.00000037 8.47646 6.87154 15.348 15.34800002 15.348h1.652v7.304-.00004c-.0001908.552284.44737 1.000154.999654 1.000346.274722.0000949.537384-.1128352.726318-.312276l7.57-8h4.356-.0000007c8.47646.0000003 15.348-6.87154 15.348-15.348.0000004-8.47646003-6.87154-15.34800003-15.348-15.34800003z" fill-rule="evenodd" transform="translate(6 10)"></path>
-                                            </svg>
-                                            7
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         </article>
                         <article className="flockler-grid-item flockler-grid-item--instagram flockler-grid-item--no-profile-details is-visible" style={{opacity: 1}}>
                             <div className="flockler-grid-item__wrapper flockler-grid-item__wrapper--no-profile">
                                 <div className="flockler-grid-item__content">
-                                    <figure className="flockler-grid-item__context post__context__instagram">
-                                        <a href="https://www.instagram.com/p/C8pqgPTvWBW/" target="_blank" rel="noopener noreferrer nofollow" title="See original post on Instagram (Opens in a new window)" aria-label="See original post on Instagram (Opens in a new window)" className="flockler-grid-item__context__source">
-                                            <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__context__icon">
-                                                <defs>
-                                                    <radialGradient id="instagramLogoGradient" r="150%" cx="30%" cy="107%">
-                                                        <stop offset="0" stop-color="#fdf497"></stop>
-                                                        <stop offset=".05" stop-color="#fdf497"></stop>
-                                                        <stop offset=".45" stop-color="#fd5949"></stop>
-                                                        <stop offset=".6" stop-color="#d6249f"></stop>
-                                                        <stop offset=".9" stop-color="#285aeb"></stop>
-                                                    </radialGradient>
-                                                </defs>
-                                                <path fill-rule="evenodd" fill="url(#instagramLogoGradient)" d="m39.9 6.1c2.5 0.2 4.3 0.6 5.8 1.2 1.6 0.6 2.9 1.4 4.3 2.7 1.3 1.4 2.1 2.7 2.7 4.3 0.6 1.5 1 3.3 1.2 5.8 0.1 2.6 0.1 3.4 0.1 9.9 0 6.5 0 7.3-0.1 9.9-0.2 2.5-0.6 4.3-1.2 5.8-0.6 1.6-1.4 2.9-2.7 4.3-1.4 1.3-2.7 2.1-4.3 2.7-1.5 0.6-3.3 1-5.8 1.2-2.6 0.1-3.4 0.1-9.9 0.1-6.5 0-7.3 0-9.9-0.1-2.5-0.2-4.3-0.6-5.8-1.2-1.6-0.6-2.9-1.4-4.3-2.7-1.3-1.4-2.1-2.7-2.7-4.3-0.6-1.5-1-3.3-1.2-5.8-0.1-2.6-0.1-3.4-0.1-9.9 0-6.5 0-7.3 0.1-9.9 0.2-2.5 0.6-4.3 1.2-5.8 0.6-1.6 1.4-2.9 2.7-4.3 1.4-1.3 2.7-2.1 4.3-2.7 1.5-0.6 3.3-1 5.8-1.2 2.6-0.1 3.4-0.1 9.9-0.1 6.5 0 7.3 0 9.9 0.1zm-19.6 4.4c-2.3 0.1-3.6 0.5-4.5 0.8-1.1 0.4-1.9 0.9-2.7 1.8-0.9 0.8-1.4 1.6-1.8 2.7-0.3 0.9-0.7 2.2-0.8 4.5-0.2 2.5-0.2 3.3-0.2 9.7 0 6.4 0 7.2 0.2 9.7 0.1 2.3 0.5 3.6 0.8 4.5 0.4 1.1 0.9 1.9 1.8 2.7 0.8 0.9 1.6 1.4 2.7 1.8 0.9 0.3 2.2 0.7 4.5 0.8 2.5 0.2 3.3 0.2 9.7 0.2 6.4 0 7.2 0 9.7-0.2 2.3-0.1 3.6-0.5 4.5-0.8 1.1-0.4 1.9-0.9 2.7-1.8 0.9-0.8 1.4-1.6 1.8-2.7 0.3-0.9 0.7-2.2 0.8-4.5 0.2-2.5 0.2-3.3 0.2-9.7 0-6.4 0-7.2-0.2-9.7-0.1-2.3-0.5-3.6-0.8-4.5-0.4-1.1-0.9-1.9-1.8-2.7-0.8-0.9-1.6-1.4-2.7-1.8-0.9-0.3-2.2-0.7-4.5-0.8-2.5-0.2-3.3-0.2-9.7-0.2-6.4 0-7.2 0-9.7 0.2zm22 19.5c0 6.8-5.5 12.3-12.3 12.3-6.8 0-12.3-5.5-12.3-12.3 0-6.8 5.5-12.3 12.3-12.3 6.8 0 12.3 5.5 12.3 12.3zm-4.3 0c0-4.4-3.6-8-8-8-4.4 0-8 3.6-8 8 0 4.4 3.6 8 8 8 4.4 0 8-3.6 8-8zm7.7-12.8c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"></path>
-                                            </svg>
-                                        </a>
-                                    </figure>
                                     <figure className="flockler-grid-item__media flockler-grid-item__media--image flockler-grid-item__media--loaded">
                                         <img src="https://media-api.flockler.com/instagram/image/3398434327241777238" alt="No photo description available." className="flockler-grid-item__media__img" />
                                         <a href="https://www.instagram.com/p/C8pqgPTvWBW/" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabIndex={-1} className="flockler-grid-item__media__source-link"></a>
@@ -239,24 +129,6 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                                             </svg>
                                         </div>
                                     </figure>
-                                    <div className="flockler-grid-item__text" style={{ minHeight: "275px" }}>
-                                        <svg aria-hidden="true" viewBox="0 0 60 60" className="flockler-grid-item__text__hover-hint">
-                                            <path fill="currentColor" d="m27.739 2.889-2.693-2.693-21.553 21.554 2.693 2.693 18.86-18.861 18.772 18.772 2.693-2.693-10.761-10.761z" fill-rule="evenodd" transform="translate(5 18)"></path>
-                                        </svg>
-                                        <div className="flockler-grid-item__text__wrapper">
-                                            <div className="flockler-grid-item__text__content">
-                                                <p>
-                                                    <a href="https://www.instagram.com/explore/tags/TuesdayRoomTour" rel="nofollow noopener noreferrer" target="_blank" aria-label="Hashtag TuesdayRoomTour">#TuesdayRoomTour</a>
-                                                    : Parc Soleil, a Hilton Grand Vacations Club
-                                                </p>
-                                                <p>What’s your favorite thing to do in Orlando? Show us and share your favorite HGV vacation photos with <a href="https://www.instagram.com/explore/tags/MyHGV" rel="nofollow noopener noreferrer" target="_blank" aria-label="Hashtag MyHGV">#MyHGV</a> for a chance to be featured! ☀️</p>
-                                            </div>
-                                        </div>
-                                        <button type="button" className="flockler-grid-item__text__show-button" style={{ display: "none" }}>
-                                            <span>Show more…</span>
-                                            <span className="flockler-visuallyhidden">(enlarge visible text above – no impact for screenreader users)</span>
-                                        </button>
-                                    </div>
                                 </div>
                                 <div className="flockler-grid-item__footer">
                                     <div className="flockler-grid-item__footer__details">
