@@ -19,7 +19,7 @@
   }
 }
 
-.full-width-cta:before, .full-width-cta:after {
+.full-width-cta::before, .full-width-cta::after {
   content: "";
   background-color: #f1f1f1;
   position: absolute;
@@ -41,15 +41,15 @@
     margin-bottom: 10px;
   }
 
-  div[id^=flockler-embed-] {
+  div[id^="flockler-embed-"] {
     width: 100%;
   }
 
   #flockler-embed-173a0d42e8e0180729dec1f41d5491ca {
-    --fl-preview-background: #ffffff;
-    --fl-item-background: #ffffff;
-    --fl-text-color: #111111;
-    --fl-link-color: #111111;
+    --fl-preview-background: #fff;
+    --fl-item-background: #fff;
+    --fl-text-color: #111;
+    --fl-link-color: #111;
     --fl-link-color-hover: #1771e0;
 
     .flockler-grid-items {
@@ -80,7 +80,7 @@
           background: var(--fl-item-background, #fff);
           border-radius: 4px;
           border-radius: var(--fl-item-border-radius, 4px);
-          border-top: 1px solid rgba(128, 128, 128, .1);
+          border-top: 1px solid rgba(128, 128, 128, 10%);
           display: flex;
           flex-direction: column;
           font-size: 16px;
@@ -100,7 +100,7 @@
             figure.flockler-grid-item__media {
               display: flex;
               align-items: center;
-              background: linear-gradient(120deg, rgba(128, 128, 128, .05), rgba(128, 128, 128, .1));
+              background: linear-gradient(120deg, rgba(128, 128, 128, 5%), rgba(128, 128, 128, 10%));
               height: 100%;
               overflow: hidden;
               margin: 0 !important;
@@ -139,7 +139,7 @@
 
                 svg {
                   bottom: 0;
-                  filter: drop-shadow(0 .5em 2em rgba(0, 0, 0, .5));
+                  filter: drop-shadow(0 .5em 2em rgba(0, 0, 0, 50%));
                   height: 90px;
                   left: 0;
                   margin: auto;
@@ -200,7 +200,7 @@
         }
       }
 
-      .flockler-grid-item:before {
+      .flockler-grid-item::before {
         border-radius: 4px;
         border-radius: var(--fl-item-border-radius, 4px);
         content: "";
@@ -215,7 +215,7 @@
         transition: opacity .6s ease-in-out;
       }
 
-      .flockler-grid-item:after {
+      .flockler-grid-item::after {
         border-radius: 4px;
         border-radius: var(--fl-item-border-radius, 4px);
         content: "";

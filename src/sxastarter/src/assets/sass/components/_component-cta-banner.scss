@@ -3,6 +3,7 @@
       overflow: visible;
   }
 }
+
 @media (min-width: 992px) {
   .full-width-cta__wrapper {
     -webkit-box-orient: horizontal;
@@ -78,7 +79,6 @@
           top: 0;
           left: 0;
           right: 0;
-          width: 100%;
           text-align: center;
           font-weight: 600;
           font-size: 20px;
@@ -110,8 +110,8 @@
         -ms-flex-direction: column;
         flex-direction: column;
         margin: -10px 0;
-        -webkit-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.17);
-        box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.17);
+        -webkit-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 17%);
+        box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 17%);
         text-align: center;
         width: 285px;
         z-index: 0;

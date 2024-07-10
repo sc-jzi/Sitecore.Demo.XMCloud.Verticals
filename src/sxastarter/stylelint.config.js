@@ -14,6 +14,8 @@ module.exports = {
     "value-no-vendor-prefix": null,
     "media-feature-range-notation": null,
     "declaration-block-no-redundant-longhand-properties": null,
-    "color-function-notation": null
+    "color-function-notation": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "length-zero-no-unit": null
   },
 };
