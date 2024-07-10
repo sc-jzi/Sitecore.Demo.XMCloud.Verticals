@@ -44,6 +44,16 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
       <div className="container container-widest-fluid">
         <div className="container">
           <div className="row row-gap-4 main-content align-items-center">
+            <div className="col-md-10 mx-auto col-lg-6 mx-lg-0">
+              <div className="image-wrapper">
+                <Image
+                  field={props.fields.Image}
+                  className={`d-block mx-lg-auto img-fluid ${
+                    !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+                  }`}
+                ></Image>
+              </div>
+            </div>
             <div className="col-lg-6">
               <IconAccent image={props.fields.Icon} inverted />
               <div className="content-wrapper">
@@ -60,18 +70,6 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
                     <Link field={props.fields.Link} className="button button-main mt-3" />
                   )}
                 </div>
-              </div>
-            </div>
-            <div className="col-md-10 mx-auto col-lg-6 mx-lg-0">
-              <div className="image-wrapper">
-                <DottedAccent className="dotted-accent-top" />
-                <Image
-                  field={props.fields.Image}
-                  className={`d-block mx-lg-auto img-fluid ${
-                    !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
-                  }`}
-                ></Image>
-                <DottedAccent className="dotted-accent-bottom" />
               </div>
             </div>
           </div>
