@@ -29,7 +29,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
         <div className="hgv-row">
             <header className="hgv-header hgv-header--carousel">
                 <h2 className="hgv-title">Featured resorts and vacation destinations</h2>
-                <a className="hgv-btn hgv-btn--link pl-0 pt-0 pb-0" href="https://hilton-2eyf6y550esadnitddvbbw-financial.vercel.app/en/resorts-and-destinations/">VIEW ALL DESTINATIONS</a>
+                <a className="hgv-btn hgv-btn--link pl-0 pt-0 pb-0" href="/en/resorts-and-destinations/">VIEW ALL DESTINATIONS</a>
             </header>
         </div>
         <div className="slider">
@@ -39,7 +39,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                         <div className="slider__item slick-slide slick-cloned slick-active">
                             <div className="resorts-tile">
                                 <div className="resorts-tile__container is--full">
-                                    <a href="https://hilton-2eyf6y550esadnitddvbbw-financial.vercel.app/en/resorts-and-destinations/new-york/the-hilton-club-new-york" className="resorts-tile__wrapper">
+                                    <a href="/en/resorts-and-destinations/new-york/the-hilton-club-new-york" className="resorts-tile__wrapper">
                                         <div className="resorts-tile__media">
                                             <img src="https://www.hiltongrandvacations.com/-/media/images/main/resorts/01-tile-thumbs/ny-thc-ext-002.jpg?h=450&amp;iar=0&amp;w=367&amp;hash=7B580705AB8ACB76377AC5AC6907C981" className="resorts-tile__image lazyload" alt="The Hilton Club Vacation Ownership in New York City" width="367" height="450" loading="lazy" />
                                         </div>
@@ -62,7 +62,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                         <div className="slider__item slick-slide slick-current slick-active slick-center">
                             <div className="resorts-tile">
                                 <div className="resorts-tile__container is--full">
-                                    <a href="https://www.hiltongrandvacations.com/en/resorts-and-destinations/hawaii/oahu/grand-waikikian-a-hilton-grand-vacations-club" className="resorts-tile__wrapper">
+                                    <a href="/en/resorts-and-destinations/hawaii/oahu/grand-waikikian-a-hilton-grand-vacations-club" className="resorts-tile__wrapper">
                                         <div className="resorts-tile__media">
                                             <img src="https://www.hiltongrandvacations.com/-/media/images/main/resorts/01-tile-thumbs/hi-gw-ext-007-thumb.jpg?h=450&amp;iar=0&amp;w=367&amp;hash=41E724C6F7E3537534D0DEB62FD8CDD8" className="resorts-tile__image lazyload" alt="The Grand Waikikian Vacation Resort in Waikiki Oahu" width="367" height="450" loading="lazy" />
                                         </div>
