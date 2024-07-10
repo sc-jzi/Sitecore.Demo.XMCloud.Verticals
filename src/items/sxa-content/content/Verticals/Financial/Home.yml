@@ -362,8 +362,19 @@ Languages:
               <p:d />
             </r>
             <r
+              uid="{D56E4A0F-CC47-43EE-BDE4-BD62BBDAC650}"
+              p:after="r[@uid='{B882746C-C313-4283-8F58-B9402BCF9C6A}']"
+              s:id="{4824F1A1-6DDF-4848-96A0-D9B20FEEDFD8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=33"
+              s:ph="headless-main" />
+            <r
+              uid="{0BACE296-5038-48CF-96C5-A935625590F6}"
+              p:after="r[@uid='{D56E4A0F-CC47-43EE-BDE4-BD62BBDAC650}']"
+              s:id="{F622E418-4D13-47A6-A89B-2A61C907FEC9}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=32"
+              s:ph="headless-main" />
+            <r
               uid="{633506E7-54D0-4410-9051-72FB4C9FECB4}"
-              p:after="*[1=2]"
               s:ds="local:/Data/HGV Difference"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA63F145F-1C28-4DA2-8A82-B1F263BCC1E2%7D&amp;Styles=%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D%7C%7BAC2F465E-37DA-4902-A6E1-54D0D9A34A0D%7D%7C%7B414E9E7F-1D7C-4BA2-8A8E-C472697DB054%7D%7C%7B4FF833E4-92AD-41E4-97A4-D329284BC2B1%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=25" />
             <r
@@ -374,6 +385,18 @@ Languages:
               uid="{0ED2D2C2-E9EF-4E40-B040-6289CB174E03}">
               <p:d />
             </r>
+            <r
+              uid="{0236F454-D380-447C-8F47-55A380351A81}"
+              p:after="r[@uid='{633506E7-54D0-4410-9051-72FB4C9FECB4}']"
+              s:id="{24919F8E-AC20-4101-922D-B305BFC398B6}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B39C76292-F449-4C7F-806C-3B2147C18BFC%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=31"
+              s:ph="headless-main" />
+            <r
+              uid="{279AF0C5-5280-45F2-B42C-0AFBAF0BD4CE}"
+              p:after="*[1=2]"
+              s:id="{24919F8E-AC20-4101-922D-B305BFC398B6}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B274E20ED-3DFC-4CF2-99F2-1A35D2C04B9D%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=30"
+              s:ph="headless-main" />
             <r
               uid="{854DE8CE-208F-494D-B7C8-C1162D00144F}">
               <p:d />
@@ -396,7 +419,7 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1e1b9ff9-e397-4ead-ba60-488da73f846b"
+      Value: "0a9e3569-8d03-4b37-beed-1df1b3547d73"
     - ID: "d44c4717-038c-47d2-b365-695e23e9fea0"
       Hint: Content
       Value: <p>&nbsp;</p>
