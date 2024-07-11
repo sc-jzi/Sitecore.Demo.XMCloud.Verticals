@@ -4,8 +4,8 @@
   "ref": "cd0708ea-1afe-42ed-bb08-0ba8eafb6504",
   "name": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
   "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-07-09T12:34:03.455Z",
-  "revision": 13,
+  "modifiedAt": "2024-07-10T12:29:54.813Z",
+  "revision": 15,
   "archived": false,
   "friendlyId": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-07-09T12:34:03.455Z",
+    "modifiedAt": "2024-07-10T12:29:54.813Z",
     "splits": []
   },
   "variants": [],
