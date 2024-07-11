@@ -2,7 +2,7 @@
 ID: "5adc5b9f-0fd9-4392-8665-b4e717635051"
 Parent: "a08d16f5-8f3d-4b5f-8fa5-1b81dbae7a95"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
-Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/Canada/Data/Promo CTA 1"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/canada/Data/Promo CTA 1"
 SharedFields:
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image

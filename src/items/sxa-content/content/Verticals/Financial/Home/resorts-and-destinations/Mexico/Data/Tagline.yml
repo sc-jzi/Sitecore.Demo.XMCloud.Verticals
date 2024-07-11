@@ -2,7 +2,7 @@
 ID: "ca764afd-1177-4fcd-82c2-6deb782e796e"
 Parent: "fee06daf-f1dd-43ab-a3bb-a6d2c2eef358"
 Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
-Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/Mexico/Data/Tagline"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/mexico/Data/Tagline"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

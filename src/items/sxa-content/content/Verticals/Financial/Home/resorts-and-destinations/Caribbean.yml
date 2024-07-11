@@ -2,7 +2,7 @@
 ID: "7e882943-537a-446a-9e3e-8c31c282431a"
 Parent: "af81673a-e745-40b2-8ea7-34e0589693a7"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/Caribbean"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/caribbean"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -59,7 +59,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 
+    Value: Caribbean
   Versions:
   - Version: 1
     Fields:
@@ -71,13 +71,13 @@ Languages:
       Value: Lead your team, build your business.
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Employee management
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cc4b2a6-b031-4be1-af30-41a0ee1c8a3a"
+      Value: "14c4c295-51f9-447a-8173-8f9bafc09ac5"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
